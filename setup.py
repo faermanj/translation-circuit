@@ -3,7 +3,7 @@ A part of a TARDIS that allows for the instantaneous translation of most languag
 """
 from setuptools import find_packages, setup
 
-dependencies = ['click']
+dependencies = ['click', "python-frontmatter", "boto3"]
 
 setup(
     name='tcirc',
